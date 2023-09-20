@@ -18,6 +18,120 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
+<!--Shopping Cart Title-->
+<div class="container">
+  <div class="row">
+    <h1 class="col-xs-12 text-center">Shopping List</h1>
+  </div>
+</div>
+<!--Item List-->
+<div class="item-list container">
+  <hr>
+  <!--Item-->
+  <div class="row item">
+    <div class="col-xs-3 item-name">Pizza Slice</div>
+    <div class="col-xs-3 item-price">$2.50</div>
+    <div class="col-xs-3 item-qty">
+      <label>Quantity</label>
+      <input class="quantity" type="number">
+    </div>
+    <div class="col-xs-1">
+      <button class="remove">Remove</button>
+    </div>
+    <div class="item-subtotal col-xs-2">$--.--</div>
+  </div>
+  <!--Item-->
+  <div class="row item">
+    <div class="col-xs-3 item-name">Cheeseburger</div>
+    <div class="col-xs-3 item-price">$4.99</div>
+    <div class="col-xs-3 item-qty">
+      <label>Quantity</label>
+      <input class="quantity" type="number">
+    </div>
+    <div class="col-xs-1">
+      <button class="remove">Remove</button>
+    </div>
+    <div class="item-subtotal col-xs-2">$--.--</div>
+  </div>  
+  <!--Item-->
+  <div class="row item">
+    <div class="col-xs-3 item-name">Grilled Chicken Salad</div>
+    <div class="col-xs-3 item-price">$7.99</div>
+    <div class="col-xs-3 item-qty">
+      <label>Quantity</label>
+      <input class="quantity" type="number" >
+    </div>
+    <div class="col-xs-1">
+      <button class="remove">Remove</button>
+    </div>
+    <div class="item-subtotal col-xs-2">$--.--</div>
+  </div>  
+  <!--Item-->
+  <div class="row item">
+    <div class="col-xs-3 item-name">Lasagna</div>
+    <div class="col-xs-3 item-price">$9.99</div>
+    <div class="col-xs-3 item-qty">
+      <label>Quantity</label>
+      <input class="quantity" type="number">
+    </div>
+    <div class="col-xs-1">
+      <button class="remove">Remove</button>
+    </div>
+    <div class="item-subtotal col-xs-2">$--.--</div>
+  </div>  
+  <!--Item-->
+  <div class="row item">
+    <div class="col-xs-3 item-name">Sushi Roll</div>
+    <div class="col-xs-3 item-price">$8.50</div>
+    <div class="col-xs-3 item-qty">
+      <label>Quantity</label>
+      <input class="quantity" type="number">
+    </div>
+    <div class="col-xs-1">
+      <button class="remove">Remove</button>
+    </div>
+    <div class="item-subtotal col-xs-2">$--.--</div>
+  </div>  
+  <!--Item-->
+  <div class="row item">
+    <div class="col-xs-3 item-name">Chocolate Chip Cookies</div>
+    <div class="col-xs-3 item-price">$4.99</div>
+    <div class="col-xs-3 item-qty">
+      <label>Quantity</label>
+      <input class="quantity" type="number">
+    </div>
+    <div class="col-xs-1">
+      <button class="remove">Remove</button>
+    </div>
+    <div class="item-subtotal col-xs-2">$--.--</div>
+  </div>
+</div>
+  <hr>
 
-  </body>
+  <!--Add New Item-->
+  <div class="container">
+  <h2 class="col-xs-12 text-center newItemTitle">Add New Item</h2>
+  <div class="row new">
+    <div class="col-xs-4">
+      <input placeholder="apple" id="name">
+    </div>
+    <div class="col-xs-4">
+      <input placeholder="30" id="cost">
+    </div>
+    <div class="col-xs-4">
+      <button id="fork">
+        Add
+      </button>
+    </div>
+  </div>
+  <hr>
+  <!--Total Price-->
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Total Price: </h1>
+      <div id="total-price">$ 0</div>
+    </div>
+  </div>
+</div>
+</body>
 </html>
